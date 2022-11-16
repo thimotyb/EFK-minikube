@@ -9,7 +9,7 @@ spec:
   capacity:
     storage: 50Gi
   accessModes:
-    - ReadWriteOnly
+    - ReadWriteOnce
   hostPath:
     path: "/tmp/data-0"
 ---
@@ -24,7 +24,7 @@ spec:
   capacity:
     storage: 50Gi
   accessModes:
-    - ReadWriteOnly
+    - ReadWriteOnce
   hostPath:
     path: "/tmp/data-1"
 ---
@@ -39,6 +39,6 @@ spec:
   capacity:
     storage: 50Gi
   accessModes:
-    - ReadWriteOnly
+    - ReadWriteOnce
   hostPath:
     path: "/tmp/data-2"
